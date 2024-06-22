@@ -1,4 +1,4 @@
-# Radar-Detection
+# Radar-Detection with Yolov8
 Self-Driving Cars Project for NYCU Courses, Fall 2023
 
 ## Objectives
@@ -47,5 +47,18 @@ Verified model performance using data from Guangfu Road, Hsinchu, Taiwan
 └── yolov8x.pt
 
 ```
+## Yolov8m Hyperparameters and Configurations
+The best model performance was achieved using YOLOv8m.
+| parameters       | default value | optimizer value |
+|------------------|---------------|-----------------|
+| epochs           | 100           | 65              |
+| optimizer        | auto          | Adam            |
+| learning rate(lr0) | 0.01          | 0.0001          |
+| patience         | 50            | 25              |
+| augmentation     | True          | True            |
+| batch size       | 16            | 16              |
 
+
+## Result Demo
+video : https://youtu.be/BmGU1UOnfzY
 
