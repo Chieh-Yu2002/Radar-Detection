@@ -16,8 +16,6 @@ Radar Detection with YOLOv8
 │       └── ...
 ├── runs
 │   └── dectect # weights will be saved here
-├── test_data
-├── train_data
 ├── ultralytics # tools for yolo
 │   └── ...
 ├── yolo_best # best weights and json for competition and bonus
@@ -37,11 +35,6 @@ Radar Detection with YOLOv8
 ├── data_process.ipynb # generate labels for traning competition model
 ├── dataset.yaml
 ├── README.md
-├── weights_to_json.py
-├── yolov8l.pt
-├── yolov8m.pt
-├── yolov8n.pt
-├── yolov8s.pt
-└── yolov8x.pt
+└── weights_to_json.py
 
 ```
