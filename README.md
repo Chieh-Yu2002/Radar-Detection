@@ -62,3 +62,5 @@ The best model performance was achieved using YOLOv8m.
 ## Result Demo
 video : https://youtu.be/BmGU1UOnfzY
 
+## License
+This project is released under the MIT License.
